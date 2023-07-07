@@ -31,7 +31,9 @@ FL: Freelancer.
 
 ### Analysis
 
-Overall, we have a data which is displayed at a glance.
+In this project, I decided to work on data scientist's salaries over the years. The reason is that the data science is becoming popular and for this purpose I decided to make some analysis and predict if it still will be a popular occupation in future.
+
+In below, the data is visualized at a glance.
 
 ![datahead](imgs/data_head.PNG)
 
@@ -44,26 +46,26 @@ It shows us, the type "object" columns should be converted into ordinal or categ
 
 
 
-1. Salary over focus: This piechart in below show us how percentage of a whole pie does each focus (engineer, lead, researcher, manager, etc.) occupies.
+1. Salary over focus: The following pie chart illustrates the percentage breakdown of salary distribution across different job focuses such as engineer, lead, researcher, manager, etc.
 
 ![salaryoverfocus](imgs/salary_over_focus.png)
 
-2. Salary over currency: In this multiple-bar plot, the salary currency's distribution on salary (in USD) is visualized. Note that, normally there are more than 5 different currencies (EUR, USD, INR, GBP, CAD) which appears in the plot. However, I decided not to use those since they do not have a value for each year we work on.
+2. Salary over currency: This multiple-bar plot visualizes the distribution of salary currencies (in USD). Please note that although there are typically more than five different currencies (EUR, USD, INR, GBP, CAD) in the dataset, we have excluded them as they do not have a consistent value for each year under consideration.
 
 
 ![salaryovercurrency](imgs/salary_over_currency.png)
 
 
-3. Salary over experience: In this multiple-bar plot, the experience level's effect on salary is examined.
+3. Salary over experience: This multiple-bar plot examines the impact of experience levels on salary.
 
 ![salaryoverexperience](imgs/salary_over_experience.png)
 
 
-4. Salary over job title: In this horizontal bar plot, the average salary of each unique job title is illustrated.
+4. Salary over job title: This horizontal bar plot illustrates the average salary for each unique job title.
 
 ![salaryovertitle](imgs/salary_over_title.png)
 
-5. Distribution of data scientist by their experience: In this multiple-bar plot, the average salary of at each experience level over years is visualized.
+5. Distribution of data scientist by their experience: : This multiple-bar plot visualizes the average salary at each experience level over the years.
 
 ![distexp](imgs/distribution_experience_over_years.png)
 
